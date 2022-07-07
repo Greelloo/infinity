@@ -38,6 +38,7 @@ html {
     border-bottom: 2px solid rgba(220, 20, 60, 0);
     padding: 5px 20px 5px 0;
     transition: all .4s ease-in-out;
+    text-align: center;
 }
 
 .nav-link li a.active {
