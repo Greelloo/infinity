@@ -450,6 +450,7 @@ footer {
 
     .footer-inner {
         grid-template-columns: 1fr 1fr 1fr;
+        font-size: 12px;
     }
 
     .footer-inner div {
