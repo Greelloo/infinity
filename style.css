@@ -348,14 +348,17 @@ body {
 footer {
     padding: 1rem 0;
     background: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     
 }
 
 .footer-inner {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: 80%;
-    margin: 0 auto;
+    width: 90%;
+    text-align: center;
 }
 
 
@@ -408,6 +411,12 @@ footer {
         display: flex;
         justify-content: center;
         margin: 0 0 3rem;
+        position: relative;
+        left: -30px;
+    }
+
+    .about-content-text button {
+        padding: 0.8rem 4rem;
     }
 
     .email {
@@ -440,10 +449,16 @@ footer {
     }
 
     .footer-inner {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .footer-inner div {
         margin: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .footer-inner {
+        grid-template-columns: 1fr 1fr;
     }
 }
