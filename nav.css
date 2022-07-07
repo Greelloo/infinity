@@ -70,6 +70,13 @@ html {
     width: 18px;
 }
 
+
+@media screen and (max-width: 1200px) {
+    .nav-link {
+        width: 40%;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .nav-link {
         position: absolute;
@@ -118,11 +125,5 @@ html {
             opacity: 1;
             left: 0;
         }
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .nav-link {
-        width: 40%;
     }
 }
