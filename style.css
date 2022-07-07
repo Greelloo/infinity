@@ -116,7 +116,7 @@ body {
 }
 
 .about-content-text button {
-    padding: .6rem 2rem;
+    padding: 1rem 5rem;
     border-radius: 3px;
     display: block;
     outline: none;
@@ -124,7 +124,8 @@ body {
     background: #d85600;
     cursor: pointer;
     color: var(--light-color);
-    margin-top: 3rem;
+    margin-top: 1rem;
+    font-size: 18px;
 }
 
 .email {
